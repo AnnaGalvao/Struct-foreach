@@ -24,13 +24,13 @@ namespace ForeachStatemnet
             l1.codigo = 1;
             l1.autor = "Machado de Assis";
             l1.titulo = "Dom Casmurro";
-            l1.anoPublicacao = 1940;
+            l1.anoPublicacao = 1899;
 
             Livro l2;
             l2.codigo = 2;
             l2.autor = "Jorge Amado";
             l2.titulo = "Gabriela";
-            l2.anoPublicacao = 1965;
+            l2.anoPublicacao = 1958;
 
             //ArrayList livros = new ArrayList(); - nao prudente  nese caso pois ele aceita qq object
             List < Livro> livros = new List<Livro>(); //Generic = mais seguro pois só aceita o tipo utilizavel e a performarce do list é melhor que do arraylist
